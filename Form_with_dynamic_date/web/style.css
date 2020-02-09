@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-size: 50px;
+  font-family: Courier New, Georgia, "Times New Roman",
+        Times, serif;
+  color: Red;
+  background-color: black;
+
+}
+
+
+input[type=text] {
+  font-size: 25px;
+  border: 2px solid red;
+  border-radius: 4px;
+
+}
+input[type=password] {
+  font-size: 25px;
+  border: 2px solid red;
+  border-radius: 4px;
+
+}
+input[type=reset] {
+  font-size: 30px;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
+input[type=submit] {
+  font-size: 30px;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
